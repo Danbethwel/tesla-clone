@@ -37,8 +37,21 @@ function Home() {
         title="Lower Cost Panels in America"
         description ="Money Back Gurantee"
         backgroundImg="solar-panel.jpg"
-        leftBtnText="Custom order"
-        rightBtnText="Existing Inventory"   
+        leftBtnText="Order Now"
+        rightBtnText="Learn More"   
+      />
+      <Section 
+        title="Solar For New Roofs"
+        description ="Solar Roofs costs way to much less"
+        backgroundImg="solar-roof.jpg"
+        leftBtnText="Order Now"
+        rightBtnText="learn Now"   
+      />
+      <Section 
+        title="Accessories"
+        description =""
+        backgroundImg="accessories.jpg"
+        leftBtnText="Shop Now"   
       />
     </Container>
   );

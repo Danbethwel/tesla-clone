@@ -13,11 +13,13 @@ export const Section = ({ title, description, leftBtnText, rightBtnText , backgr
       <Buttons>
         <ButtonGroup>
           <LeftButton>
-                {leftBtnText}
+              {leftBtnText}
           </LeftButton>
-          <RightButton>
-                {rightBtnText}
-          </RightButton>
+          { rightBtnText && 
+            <RightButton>
+              { rightBtnText}
+            </RightButton> 
+          }       
         </ButtonGroup>
         <DownArrow src="/images/down-arrow.svg" />
       </Buttons>
