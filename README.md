@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Scroll Animation
+To get full scroll animation uncomment the following section in the section.js file
+ {/* <Fade bottom> */}
+        <ItemText>
+          <h1>{title}</h1>
+          <p>{ description}</p>
+        </ItemText>
+      {/* </Fade> */}
+Hope you enjoy
